@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Car, Store, Wrench, MapPin, ShoppingBag, ShieldCheck, Menu, X, Users, Phone, ArrowRight } from "lucide-react";
 
 const LOGO_URL = "/images/otogo-logo.png";
-const APP_PREVIEW = "/images/app-preview.jpeg";
+const APP_PREVIEW = "/images/app-preview.png";
+
 
 export default function App() {
   const [open, setOpen] = useState(false);
@@ -305,10 +306,19 @@ const CSS_TEXT = `
 .btn-ghost{background:rgba(255,255,255,.06)}
 .block{width:100%;justify-content:center}
 .hero{position:relative;overflow:hidden;padding:72px 0}
-.phone-frame{max-width:320px;margin:0 auto;background:var(--panel);border:1px solid var(--line);border-radius:28px;padding:12px;box-shadow:0 25px 60px rgba(0,0,0,.5)}
-.phone-img{width:100%;height:100%;border-radius:22px;object-fit:cover}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:18px}
-.icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(213,255,95,.18);color:var(--accent)}
+.phone-frame {
+  height: 450px;
+  width: 250px;
+  margin: 0 auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 12px;
+  box-shadow: 0 25px 60px rgba(0,0,0,.5);
+}
+.phone-img{width:600px;height:100%;border-radius:22px;object-fit:cover}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:18px;margin:20px}
+.icon{width:44px;margin-right:15px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(213,255,95,.18);color:var(--accent)}
 .bullets{margin:18px 0 0;padding:0;list-style:none}.bullets li{display:flex;gap:10px;margin:8px 0}.bullets .dot{width:8px;height:8px;background:var(--accent);border-radius:999px;margin-top:8px}
 .list{margin:14px 0 0;padding:0;list-style:none}.list li{display:flex;gap:8px;align-items:flex-start;margin:8px 0}
 .step .badge{width:32px;height:32px;border-radius:999px;background:var(--accent);color:#14151A;font-weight:700;display:flex;align-items:center;justify-content:center}
