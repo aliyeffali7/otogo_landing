@@ -309,16 +309,16 @@ const CSS_TEXT = `
 .block{width:100%;justify-content:center}
 .hero{position:relative;overflow:hidden;padding:72px 0}
 .phone-frame {
-  height: 450px;
-  width: 250px;
+  height: 555px;
+  width: 270px;
   margin: 0 auto;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 12px;
   box-shadow: 0 25px 60px rgba(0,0,0,.5);
 }
-.phone-img{width:600px;height:100%;border-radius:22px;object-fit:cover}
+.phone-img{width:245px;height:530px;border-radius:22px;object-fit:cover}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:18px;margin:20px}
 .icon{width:44px;margin-right:15px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(213,255,95,.18);color:var(--accent)}
 .bullets{margin:18px 0 0;padding:0;list-style:none}.bullets li{display:flex;gap:10px;margin:8px 0}.bullets .dot{width:8px;height:8px;background:var(--accent);border-radius:999px;margin-top:8px}
