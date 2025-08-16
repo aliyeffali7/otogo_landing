@@ -124,7 +124,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ROLES */}
+      {/* Who it’s for */}
       <section id="roles" className="section">
         <div className="container">
           <div className="narrow">
@@ -133,13 +133,13 @@ export default function App() {
           </div>
           <div className="grid three">
             <RoleCard icon={Car} title={t("User (Driver)", lang)} points={[t("Default role", lang), t("Own cars, browse services & products", lang), t("Save favorites and view on map", lang)]} />
-            <RoleCard icon={Wrench} title={t("Professional", lang)} points={[t("Switch to a pro account", lang), t("Act as Service Provider (mechanic, painter, etc.)", lang), t("Driver Personnel (evacuator, sober driver)", lang)]} />
-            <RoleCard icon={Store} title={t("Business Page", lang)} points={[t("Represents a business, tied to a user", lang), t("Two types: Catalog‑based or Driver‑based", lang), t("Manage products or driver roster", lang)]} />
+            <RoleCard icon={Wrench} title={t("Professional", lang)} points={[t("Switch to a pro account", lang), t("Act as Service Provider (mechanic, painter, etc.)", lang), ]} />
+            <RoleCard icon={Store} title={t("Business Page", lang)} points={[t("Represents a business, tied to a user", lang), t("Two types: Catalog‑based or Driver‑based", lang), t("Manage products ", lang)]} />
           </div>
         </div>
       </section>
 
-      {/* HOW */}
+      {/* HOW IT WORKS*/}
       <section id="how" className="section alt">
         <div className="container">
           <h2 className="h2">{t("How it works", lang)}</h2>
@@ -161,7 +161,7 @@ export default function App() {
             <ul className="list">
               <li><ShieldCheck size={18}/> {t("Verified badge options", lang)}</li>
               <li><ShoppingBag size={18}/> {t("Product/service catalog (no checkout)", lang)}</li>
-              <li><Users size={18}/> {t("Driver roster for evacuators & sober drivers", lang)}</li>
+              
             </ul>
             <div className="row gap">
               <a href="#biz-form" className="btn btn-accent">{t("Request for Business", lang)} <ArrowRight size={16}/></a>
