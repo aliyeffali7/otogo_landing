@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import { Car, Store, Wrench, MapPin, ShoppingBag, ShieldCheck, Menu, X, Users, Phone, ArrowRight } from "lucide-react";
 
+//alinin agzina push eleyim
+
 const LOGO_URL = "/images/otogo-logo.png";
 const APP_PREVIEW = "/images/app-preview.jpeg";
 
