@@ -322,7 +322,7 @@ body {
 
 .phone-frame {
     height: 650px;
-    width: 320px;
+    width: 320cleapx;
     margin: 0 auto;
     background: var(--panel);
     border: 1px solid var(--line);
